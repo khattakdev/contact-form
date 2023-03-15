@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
+        <div class="basic_info">
+          <div class="input">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name" />
+          </div>
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Email" />
+          </div>
+        </div>
+        <div class="input">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Subject" />
+        </div>
+        <div class="input">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Your Message"></textarea>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
